@@ -303,6 +303,9 @@
 .p-letter{
     height: 2em;
     width: 2em;
-    background-color: rgba(255, 143, 0, 0.3);
+    background-color: rgba(255, 143, 0, 0.3); 
 }
 
+#dotted-line{
+    border-top: 1px dotted whitesmoke
+}
