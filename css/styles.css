@@ -196,6 +196,7 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+/*Education section*/
 #education-after{
     display: none;
     padding: 10px;
@@ -205,6 +206,11 @@
 .education-wrapper p{
     display: grid;
     justify-items: right;
+}
+/*Langauges*/
+.langauges-wrappper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 #contact-after{
     display: none;
@@ -285,6 +291,26 @@
     display: grid;
     justify-items: right;
 }
+/* This is the exp8 style. */
+#exp8-after{
+    display: none;
+    padding: 10px;
+    background-color: rgba(173, 164, 134, 0.1);
+}
+.exp8-content-wrapper p{
+    display: grid;
+    justify-items: right;
+}
+/* This is the exp9 style. */
+#exp9-after{
+    display: none;
+    padding: 10px;
+    background-color: rgba(173, 164, 134, 0.1);
+}
+.exp9-content-wrapper p{
+    display: grid;
+    justify-items: right;
+}
 /* progress circle*/
 .skills-progress-circles{
     display: grid;
@@ -307,5 +333,7 @@
 }
 
 #dotted-line{
-    border-top: 1px dotted whitesmoke
+    border-top: 1px dotted whitesmoke;
+    border-bottom: 1px dotted whitesmoke;
+
 }
