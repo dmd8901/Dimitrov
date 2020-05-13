@@ -19,24 +19,21 @@
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38px;
+    padding-bottom: 38px;
 }
 
 .left-side {
     display: flex;
 }
-
+.My-name{
+    font-size: 2rem;
+}
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
-    font-size: 0.9rem;
+    font-size: 1rem; 
     text-transform: uppercase;
 }
 
-.nav-link-wrapper {
-    height: 20px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
-}
 
 
 .nav-link-wrapper a {
@@ -110,10 +107,7 @@
     background-color: #1b1b1b;
     font-family: 'Inter';
     color: whitesmoke;
-    padding-right: 38px;
-    padding-left: 38px;
-    padding-bottom: 38px;
-    padding-top: 5px;
+    padding: 38px;
 }
 #about-page h4{
     color: #ff8f00;
@@ -191,11 +185,14 @@
     border-radius: 70%;
     padding: 5em;
 }
+/*back button*/
 .back-button a{
     color: whitesmoke;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 1rem;
 }
+
 /*Education section*/
 #education-after{
     display: none;
@@ -317,6 +314,7 @@
     grid-template-columns: 1fr 1fr;
  
 }
+
 .circle-wrapper svg{
     transform: rotate(-60deg);
 }
@@ -336,4 +334,16 @@
     border-top: 1px dotted whitesmoke;
     border-bottom: 1px dotted whitesmoke;
 
+}
+/*Certifications*/
+.certificates-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 5px; 
+}
+.cert{
+    background-color: rgb(255, 143, 0, 0.3);
+}
+.cert a{
+    color: whitesmoke;
 }
